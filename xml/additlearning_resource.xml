@@ -80,12 +80,9 @@
 	var json = JSON.parse(conf);
 	var table = document.getElementById("tblLearning");
 	
-	var html = '';
+	var htmlData = '';
 	var varURLPage
 	first = true;
-
-	
-
 htmlData += '<table><tr>';
 for (var index = 0; index < json.length; ++index) {
     if ((json[index].mode) == 2) {
@@ -117,7 +114,7 @@ for (var index = 0; index < json.length; ++index) {
 }
 htmlData += '</tbody></table></tr></table>';
 
-console.log(htmlData)
+
 $("#tblLearning").html(htmlData);
 </script>
     ]]>
