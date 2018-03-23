@@ -1,1 +1,0 @@
-conf = '[{"name":"Mode1","description":"Mode 1 icon","mode":"1","url":"http://"},{"name":"Mode2","description":"Mode 2 icon","mode":"1","url":"http://"},{"name":"Mode3","description":"Mode 3 icon","mode":"1","url":"http://"}]';
