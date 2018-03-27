@@ -83,8 +83,16 @@
 	var htmlData = '';
 	var varURLPage
 	first = true;
+	var lengthofLoop;
+	if (json.length > 8) {
+	    lengthofLoop = 8
+	}
+	else {
+	    lengthofLoop = json.length
+	}
+
 htmlData += '<table><tr>';
-for (var index = 0; index < json.length; ++index) {
+for (var index = 0; index < lengthofLoop; ++index) {
     if ((json[index].mode) == 2) {
         varURLPage = '<div class="defaultBox"><a href="' + url_mode2 + json[index].name + '" target="_blank">';
     }
@@ -111,6 +119,11 @@ for (var index = 0; index < json.length; ++index) {
         htmlData += varURLPage;
         htmlData += '<div class="imageContainer"><img src="' + url_image + json[index].name + '.jpg"  class="imgBox"/></div></a></div></td></tr>';
     }
+}
+if (lengthofLoop > 7) {
+        htmlData += '<tr ><td valign="top">';
+        htmlData += '<div class="defaultBox"><a href="' + url_mode2 +'conf" target="_blank">';
+        htmlData += '<div class="imageContainer"><img src="' + url_image + mode2Image + '"  class="imgBox"/></div></a></div></td></tr>';
 }
 htmlData += '</tbody></table></tr></table>';
 
