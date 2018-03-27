@@ -56,13 +56,13 @@
             <td colspan="2">
                 <table width="100%">
                     <tr>
-                        <td width="25%">
+                        <td width="30%">
                             <hr class="hrln" />
                         </td>
                         <td width="40%">
-                            <span style="font-size:13pt">Additional Learning Resources</span>
+                            <span style="font-size:13pt">Additional LearningResources</span>
                         </td>
-                        <td width="40%">
+                        <td width="30%">
                             <hr class="hrln"  />
                         </td>
                     </tr>
