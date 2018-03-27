@@ -1,7 +1,7 @@
 var url_home = "https://rawgit.com/dxcuni/addtllearnreso/itg";
  var url_image = "https://raw.githubusercontent.com/dxcuni/addtllearnreso/itg/res/images/";
  var url_mode2 = "https://rawgit.com/dxcuni/addtllearnreso/itg/pages/mode2page/modetwopage.html?page=";
- var mode2Image = "10.jpg";
+ var mode2Image = "browsealladditional.jpg";
     
 
 var app = angular.module('myApp', []);
