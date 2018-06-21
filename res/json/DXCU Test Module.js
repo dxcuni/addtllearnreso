@@ -1,0 +1,1 @@
+conf = '[{"name":"DXCU Test Module ","description":"TestingMode","mode":"1","url":"http://"}]';
